@@ -1,0 +1,17 @@
+{
+  "name": "rabbitmq-fanout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "publisher": "node publisher.js",
+    "consumer": "node consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.7.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
